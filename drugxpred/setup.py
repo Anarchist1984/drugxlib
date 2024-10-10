@@ -8,6 +8,6 @@ setup(
     description='A Python library for drug library screening using AutoML',
     packages=find_packages(),
     install_requires=[
-        'autogluon-tabular',  # Add any additional dependencies here
+        'scikit-learn',  # Add any additional dependencies here
     ],
 )

@@ -1,3 +1,5 @@
+from drugxpred.src.models.tanimotoknn import TanimotoKNN
+
 class ModelTrainer:
     def __init__(self):
         # Initialize the model trainer
