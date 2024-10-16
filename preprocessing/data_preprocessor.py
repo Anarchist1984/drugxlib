@@ -74,8 +74,6 @@ class InhibitorProcessor:
     def process(self, data):
         return self.pipeline.fit_transform(data)
 
-class NonInhibitorFinder:
-
 # Example usage
 # if __name__ == "__main__":
 #     data = pd.DataFrame({
